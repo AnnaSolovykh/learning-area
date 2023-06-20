@@ -29,6 +29,12 @@
     const myArray = ['tomatoes', 'chick peas', 'onions', 'rice', 'black beans'];
     const list = document.createElement('ul');
 
+    for (let i=0; i<myArray.length; i++) {
+      let listItem = document.createElement("li");
+      list.appendChild(listItem)
+      listItem.textContent = myArray[i]
+    }
+
     // Add your code here
 
     // Don't edit the code below here!
